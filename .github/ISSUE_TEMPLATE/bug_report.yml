@@ -1,0 +1,39 @@
+name: Bug Report
+description: File a bug report
+labels: ["Bug"]
+assignees:
+  - TheClassic36
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of what the bug is.
+      placeholder: "Example: By putting 4 Sugar surrounded by Glass into a crafting table, I cannot craft Sugar Glass."
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: Which version of Silly Eatables are you using? If it is not listed, please update the data pack.
+      options:
+        - v1.0.0-beta1
+    validations:
+      required: true
+  - type: textarea
+    id: mcversion
+    attributes:
+      label: Minecraft Version
+      description: Which version of Minecraft are you using?
+      placeholder: If using on a server, please type /version and paste the output here. If using in singleplayer, please type the Minecraft version here instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+    validations:
+      required: false

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SBS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "id": "minecraft:bedrock",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation_modifier": 3.0,
+        "can_always_eat": false,
+        "eat_seconds": 10.0
+      },
+      "minecraft:item_name": "Sugar-Coated_Bedrock"
+    }
+  }
+}

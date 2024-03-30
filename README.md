@@ -1,0 +1,30 @@
+![image](https://i.imgur.com/KMVMugm.png)
+
+"A spoonful of sugar helps the blocks go down" - Eat things you shouldn't!
+
+## Downloads
+
+[![](https://img.shields.io/modrinth/dt/BLG002oq?label=Modrinth&style=for-the-badge&color=00AF5C&logo=modrinth)](https://modrinth.com/datapack/better-craftables/)
+[![](https://img.shields.io/github/downloads/TheClassic36/Silly-Eatables/total?label=GitHub&style=for-the-badge&color=181717&logo=github)](https://github.com/TheClassic36/Silly-Eatables/releases)
+[![](https://img.shields.io/spiget/downloads/108728?label=SpigotMC&style=for-the-badge&color=ED8106&logo=spigotmc)](https://www.spigotmc.org/resources/better-craftables.108728/)
+
+## Foods/Recipes
+
+Foods/recipes in this data pack/mod can be found [here on the wiki](https://github.com/TheClassic36/Silly-Eatables/wiki/FoodsRecipes).
+
+## Versions
+
+| Minecraft Version | Better Craftables Version |
+| :--: | :--: |
+| 1.20.5 (24w13a) |  [v1.0.0-beta1](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.0-beta13) |
+
+Other versions can be found [here](https://github.com/TheClassic36/Silly-Eatables/wiki/Versions).
+
+## Support & Feature Requests
+Please open any support requests or feature requests on GitHub or on Discord:
+
+[![](https://img.shields.io/discord/1107084025442607206?label=Discord&style=for-the-badge&color=5865F2&logo=discord)](https://discord.gg/vZJSDjPcmu)
+
+## Notes
+* I don't intend to continuously update this pack with new foods/recipes. There might be some new stuff here & there.
+* I will try to keep the pack up-to-date with the latest versions of Minecraft where possible.

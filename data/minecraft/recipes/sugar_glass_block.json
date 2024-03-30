@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SGS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "minecraft:glass",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": 1.6,
+        "can_always_eat": true,
+        "eat_seconds": 1.5
+      },
+      "minecraft:item_name": "Sugar_Glass"
+    }
+  }
+}

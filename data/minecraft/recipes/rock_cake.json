@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RCR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "R": {
+      "item": "minecraft:cobblestone"
+    },
+	"C": {
+	  "item": "minecraft:cake"
+	}
+  },
+  "result": {
+    "id": "minecraft:cake",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 7,
+        "saturation_modifier": 2.8,
+        "can_always_eat": false,
+        "eat_seconds": 4.5
+      },
+      "minecraft:item_name": "Rock_Cake"
+    }
+  }
+}
