@@ -4,19 +4,18 @@
 
 ## Downloads
 
-[![](https://img.shields.io/modrinth/dt/BLG002oq?label=Modrinth&style=for-the-badge&color=00AF5C&logo=modrinth)](https://modrinth.com/datapack/better-craftables/)
+[![](https://img.shields.io/modrinth/dt/AMZruzFM?label=Modrinth&style=for-the-badge&color=00AF5C&logo=modrinth)](https://modrinth.com/datapack/silly-eatables/)
 [![](https://img.shields.io/github/downloads/TheClassic36/Silly-Eatables/total?label=GitHub&style=for-the-badge&color=181717&logo=github)](https://github.com/TheClassic36/Silly-Eatables/releases)
-[![](https://img.shields.io/spiget/downloads/108728?label=SpigotMC&style=for-the-badge&color=ED8106&logo=spigotmc)](https://www.spigotmc.org/resources/better-craftables.108728/)
 
 ## Foods/Recipes
 
-Foods/recipes in this data pack/mod can be found [here on the wiki](https://github.com/TheClassic36/Silly-Eatables/wiki/FoodsRecipes).
+Foods/recipes in this data pack/mod can be found [here on the wiki](https://github.com/TheClassic36/Silly-Eatables/wiki/Food-Recipes).
 
 ## Versions
 
-| Minecraft Version | Better Craftables Version |
+| Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.20.5 (24w13a) |  [v1.0.0-beta1](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.0-beta13) |
+| 1.20.5 (24w13a) |  [v1.0.0-beta1](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.0-beta1) |
 
 Other versions can be found [here](https://github.com/TheClassic36/Silly-Eatables/wiki/Versions).
 
