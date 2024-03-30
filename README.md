@@ -1,5 +1,7 @@
 ![image](https://i.imgur.com/KMVMugm.png)
 
+A basic Minecraft data pack that adds some silly food crafting recipes to the game.
+
 "A spoonful of sugar helps the blocks go down" - Eat things you shouldn't!
 
 ## Downloads
