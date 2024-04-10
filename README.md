@@ -25,7 +25,3 @@ Other versions can be found [here](https://github.com/TheClassic36/Silly-Eatable
 Please open any support requests or feature requests on GitHub or on Discord:
 
 [![](https://img.shields.io/discord/1107084025442607206?label=Discord&style=for-the-badge&color=5865F2&logo=discord)](https://discord.gg/vZJSDjPcmu)
-
-## Notes
-* I don't intend to continuously update this pack with new foods/recipes. There might be some new stuff here & there.
-* I will try to keep the pack up-to-date with the latest versions of Minecraft where possible.
