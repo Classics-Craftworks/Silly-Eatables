@@ -18,8 +18,8 @@
     "count": 1,
     "components": {
       "minecraft:food": {
-        "nutrition": 0,
-        "saturation_modifier": 0.1,
+        "nutrition": 0.5,
+        "saturation": 0,
         "can_always_eat": true,
         "eat_seconds": 0.5
       },
