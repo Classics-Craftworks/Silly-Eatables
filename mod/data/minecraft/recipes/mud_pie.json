@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SMS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "M": {
+      "item": "minecraft:mud"
+    }
+  },
+  "result": {
+    "id": "minecraft:mud",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 0.5,
+        "can_always_eat": true,
+        "eat_seconds": 2.5
+      },
+      "minecraft:item_name": "Mud_Pie"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"pack":{
+		"pack_format": 39,
+		"supported_formats": {"min_inclusive": 39, "max_inclusive": 41},
+		"description": "§bSilly Eatables §7v1.0.0-beta5\n§f1.20.5 Snapshots"
+	}
+}

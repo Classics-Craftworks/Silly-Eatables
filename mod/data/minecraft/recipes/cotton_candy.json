@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "STS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:cobweb",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 1.0,
+        "can_always_eat": true,
+        "eat_seconds": 1.0
+      },
+      "minecraft:item_name": "Cotton_Candy"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SDS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "minecraft:dirt",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 0.5,
+        "can_always_eat": true,
+        "eat_seconds": 2.5
+      },
+      "minecraft:item_name": "Dirt_Cake"
+    }
+  }
+}
