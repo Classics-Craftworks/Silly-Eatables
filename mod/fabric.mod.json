@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "silly_eatables",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"name": "Silly Eatables",
 	"description": "A spoonful of sugar helps the blocks go down - Eat things you shouldn't!",
 	"authors": [
@@ -18,6 +18,6 @@
 	"environment": "*",
 	"depends": {
 		"fabric-resource-loader-v0":"*",
-		"minecraft":">=1.20.5- <1.20.7-"
+		"minecraft":"1.21"
   }
 }

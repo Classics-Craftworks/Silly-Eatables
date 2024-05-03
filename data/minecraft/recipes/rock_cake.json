@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "id": "minecraft:cake",
+    "id": "minecraft:cobblestone",
     "count": 1,
     "components": {
       "minecraft:food": {

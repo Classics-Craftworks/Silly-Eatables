@@ -1,13 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
+    "MMM",
     "SDS",
-    " S "
+    "WWW"
   ],
   "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
     "S": {
       "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:wheat"
     },
     "D": {
       "item": "minecraft:dirt"
@@ -18,10 +24,10 @@
     "count": 1,
     "components": {
       "minecraft:food": {
-        "nutrition": 1,
-        "saturation": 0.5,
-        "can_always_eat": true,
-        "eat_seconds": 2.5
+        "nutrition": 7,
+        "saturation": 3.0,
+        "can_always_eat": false,
+        "eat_seconds": 4.5
       },
       "minecraft:item_name": "Dirt_Cake"
     }
