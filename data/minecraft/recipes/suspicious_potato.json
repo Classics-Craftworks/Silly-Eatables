@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "SPS",
+    " M "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "M": {
+      "item": "minecraft:red_mushroom"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "id": "minecraft:potato",
+    "count": 1,
+    "components": {
+      "minecraft:food": {
+        "nutrition": 1.0,
+        "saturation": 0,
+        "can_always_eat": false,
+        "eat_seconds": 1.6,
+		"using_converts_to": {
+			"id":"poisonous_potato"
+		}
+      },
+      "minecraft:item_name": "Suspicious_Potato"
+    }
+  }
+}
