@@ -7,11 +7,16 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:sugar"
+		"item": "minecraft:sugar"
     },
-    "M": {
-      "item": "minecraft:red_mushroom"
-    },
+    "M": [
+	{
+		"item": "minecraft:red_mushroom"
+	},
+	{
+		"item": "minecraft:brown_mushroom"
+    }
+],
     "P": {
       "item": "minecraft:potato"
     }
@@ -29,7 +34,7 @@
 			"id":"poisonous_potato"
 		}
       },
-      "minecraft:item_name": "Suspicious_Potato"
+      "minecraft:item_name": "\"Strange Potato\""
     }
   }
 }
