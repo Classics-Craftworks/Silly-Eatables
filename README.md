@@ -1,8 +1,6 @@
 ![image](https://i.imgur.com/KMVMugm.png)
 
-A basic Minecraft data pack that adds some silly food crafting recipes to the game.
-
-"A spoonful of sugar helps the blocks go down" - Eat things you shouldn't!
+Eat things you shouldn't with this basic Minecraft data pack that adds some silly food crafting recipes to the game!
 
 ## Downloads
 
@@ -18,7 +16,7 @@ Foods/recipes in this data pack/mod can be found [here on the wiki](https://gith
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21 (24w21a - 24w21b)|  [v1.1.0-beta4](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.1.0-beta4) |
+| 1.21 (24w21a - 1.21-pre1)|  [v1.1.0-beta5](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.1.0-beta5) |
 | 1.20.5 - 1.20.6 |  [v1.0.2](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.2) |
 
 Versions for older game updates and snapshots can be found [here](https://github.com/TheClassic36/Silly-Eatables/wiki/Versions).

@@ -30,6 +30,15 @@
         "saturation": 0,
         "can_always_eat": false,
         "eat_seconds": 1.6,
+		"effects": [
+			{
+				"effect": {
+					"id":"minecraft:nausea",
+					"amplifier": 4,
+					"duration": 140
+				}
+			}
+		],
 		"using_converts_to": {
 			"id":"poisonous_potato"
 		}
