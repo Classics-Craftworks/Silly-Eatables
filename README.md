@@ -14,9 +14,11 @@ Foods/recipes in this data pack/mod can be found [here on the wiki](https://gith
 
 ## Versions
 
+**For the mod version, [Fabric API](https://modrinth.com/mod/fabric-api) is required!**
+
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21 (24w21a - 1.21-pre2)|  [v1.1.0-beta6](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.1.0-beta6) |
+| 1.21 (1.21-pre3)|  [v1.1.0-beta7](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.1.0-beta7) |
 | 1.20.5 - 1.20.6 |  [v1.0.2](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.2) |
 
 Versions for older game updates and snapshots can be found [here](https://github.com/TheClassic36/Silly-Eatables/wiki/Versions).
