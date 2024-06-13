@@ -16,9 +16,10 @@ body:
     id: version
     attributes:
       label: Version
-      description: Which version of Silly Eatables are you using? If it is not listed, please update!
+      description: Which version of Silly Eatables are you using? If it's not listed, please update!
       options:
-        - v1.1.0-beta7
+        - v1.1.0+mod
+        - v1.1.0
         - v1.0.2+mod
         - v1.0.2
     validations:
@@ -36,7 +37,7 @@ body:
     attributes:
       label: Mod Loader Version
       description: If running as a mod, which mod loader & Fabric API version are you using?
-      placeholder: "Example: Fabric Loader v0.15.11 with Fabric API v0.99.4 for Minecraft 1.20.6"
+      placeholder: "Example: Fabric Loader v0.15.11 with Fabric API v0.100.0 for Minecraft 1.20.6"
     validations:
       required: false
   - type: textarea
