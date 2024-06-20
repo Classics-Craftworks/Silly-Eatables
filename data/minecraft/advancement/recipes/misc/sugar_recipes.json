@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:cotton_candy",
+      "minecraft:dirt_cake",
+      "minecraft:explosive_treat",
+      "minecraft:mud_pie",
+      "minecraft:rock_cake",
+      "minecraft:strange_potato",
+      "minecraft:sugar_coated_bedrock",
+      "minecraft:sugar_coated_obsidian",
+      "minecraft:sugar_glass_block",
+      "minecraft:sugar_glass_pane"
+    ]
+  },
+  "criteria": {
+    "has_sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sugar"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:cotton_candy"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sugar",
+	    "has_recipe"
+    ]
+  ]
+}
