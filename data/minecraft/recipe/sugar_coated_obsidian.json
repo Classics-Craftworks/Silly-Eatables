@@ -1,29 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " S ",
-    "SOS",
-    " S "
-  ],
-  "key": {
-    "S": {
-      "item": "minecraft:sugar"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SOS",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
     },
-    "O": {
-      "item": "minecraft:obsidian"
+    "result": {
+        "id": "minecraft:obsidian",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1.5,
+                "can_always_eat": false,
+                "eat_seconds": 7.5
+            },
+            "minecraft:item_name": "\"Sugar-Coated Obsidian\""
+        }
     }
-  },
-  "result": {
-    "id": "minecraft:obsidian",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2,
-        "saturation": 1.5,
-        "can_always_eat": false,
-        "eat_seconds": 7.5
-      },
-      "minecraft:item_name": "\"Sugar-Coated Obsidian\""
-    }
-  }
 }

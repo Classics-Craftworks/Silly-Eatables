@@ -1,36 +1,36 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:cookie"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:gunpowder"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cookie"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:gunpowder"
+        }
+    ],
+    "result": {
+        "id": "minecraft:cookie",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2.0,
+                "saturation": 0,
+                "can_always_eat": false,
+                "eat_seconds": 1.6,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:instant_damage",
+                            "amplifier": 0,
+                            "duration": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:item_name": "\"Explosive Treat\""
+        }
     }
-  ],
-  "result": {
-    "id": "minecraft:cookie",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 2.0,
-        "saturation": 0,
-        "can_always_eat": false,
-        "eat_seconds": 1.6,
-		"effects": [
-			{
-				"effect": {
-					"id":"minecraft:instant_damage",
-					"amplifier": 0,
-					"duration": 1
-				}
-			}
-		]
-      },
-      "minecraft:item_name": "\"Explosive Treat\""
-    }
-  }
 }

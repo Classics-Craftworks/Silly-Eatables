@@ -1,49 +1,49 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " M ",
-    "SPS",
-    " M "
-  ],
-  "key": {
-    "S": {
-		"item": "minecraft:sugar"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "SPS",
+        " M "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "M": [
+            {
+                "item": "minecraft:red_mushroom"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            }
+        ],
+        "P": {
+            "item": "minecraft:potato"
+        }
     },
-    "M": [
-	{
-		"item": "minecraft:red_mushroom"
-	},
-	{
-		"item": "minecraft:brown_mushroom"
+    "result": {
+        "id": "minecraft:potato",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1.0,
+                "saturation": 0,
+                "can_always_eat": false,
+                "eat_seconds": 1.6,
+                "effects": [
+                    {
+                        "effect": {
+                            "id": "minecraft:nausea",
+                            "amplifier": 4,
+                            "duration": 140
+                        }
+                    }
+                ],
+                "using_converts_to": {
+                    "id": "poisonous_potato"
+                }
+            },
+            "minecraft:item_name": "\"Strange Potato\""
+        }
     }
-],
-    "P": {
-      "item": "minecraft:potato"
-    }
-  },
-  "result": {
-    "id": "minecraft:potato",
-    "count": 1,
-    "components": {
-      "minecraft:food": {
-        "nutrition": 1.0,
-        "saturation": 0,
-        "can_always_eat": false,
-        "eat_seconds": 1.6,
-		"effects": [
-			{
-				"effect": {
-					"id":"minecraft:nausea",
-					"amplifier": 4,
-					"duration": 140
-				}
-			}
-		],
-		"using_converts_to": {
-			"id":"poisonous_potato"
-		}
-      },
-      "minecraft:item_name": "\"Strange Potato\""
-    }
-  }
 }
