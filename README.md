@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/KMVMugm.png)
+![image](https://i.imgur.com/SIx9XZZ.png)
 
 Eat things you shouldn't with this basic Minecraft data pack that adds some silly food crafting recipes to the game!
 
@@ -18,7 +18,7 @@ Foods/recipes in this data pack/mod can be found [here on the wiki](https://gith
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21+ |  [v1.2.0-alpha1](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.2.0-alpha1) |
+| 1.21+ |  [v1.2.0-alpha2](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.2.0-alpha2) |
 | 1.21 |  [v1.1.0](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.1.0) |
 | 1.20.5 - 1.20.6 |  [v1.0.2](https://github.com/TheClassic36/Silly-Eatables/releases/tag/v1.0.2) |
 
