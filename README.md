@@ -18,8 +18,7 @@ Foods/recipes in this data pack/mod can be found [here on the wiki](https://gith
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21 - 1.21.1-rc1 |  [v1.2.0-alpha2](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0-alpha2) |
-| 1.21 |  [v1.1.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.1.0) |
+| 1.21 - 1.21.1 |  [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
 | 1.20.5 - 1.20.6 |  [v1.0.2](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.0.2) |
 
 Versions for older game versions and snapshots can be found [here](https://github.com/Classic36-Media/Silly-Eatables/wiki/Versions).
