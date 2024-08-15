@@ -1,15 +1,9 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:cookie"
-        },
-        {
-            "item": "minecraft:sugar"
-        },
-        {
-            "item": "minecraft:gunpowder"
-        }
+            "minecraft:cookie",
+            "minecraft:sugar",
+            "minecraft:gunpowder"
     ],
     "result": {
         "id": "minecraft:cookie",

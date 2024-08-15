@@ -6,12 +6,8 @@
         " S "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:sugar"
-        },
-        "T": {
-            "item": "minecraft:string"
-        }
+        "S": "minecraft:sugar",
+        "T": "minecraft:string"
     },
     "result": {
         "id": "minecraft:cobweb",

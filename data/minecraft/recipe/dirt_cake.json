@@ -6,18 +6,10 @@
         "WWW"
     ],
     "key": {
-        "M": {
-            "item": "minecraft:milk_bucket"
-        },
-        "S": {
-            "item": "minecraft:sugar"
-        },
-        "W": {
-            "item": "minecraft:wheat"
-        },
-        "D": {
-            "item": "minecraft:dirt"
-        }
+        "M": "minecraft:milk_bucket",
+        "S": "minecraft:sugar",
+        "W": "minecraft:wheat",
+        "D": "minecraft:dirt"
     },
     "result": {
         "id": "minecraft:dirt",

@@ -6,12 +6,8 @@
         " S "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:sugar"
-        },
-        "B": {
-            "item": "minecraft:bedrock"
-        }
+        "S": "minecraft:sugar",
+        "B": "minecraft:bedrock"
     },
     "result": {
         "id": "minecraft:bedrock",

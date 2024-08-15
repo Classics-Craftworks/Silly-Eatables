@@ -1,15 +1,9 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:mud"
-        },
-        {
-            "item": "minecraft:sugar"
-        },
-        {
-            "item": "minecraft:egg"
-        }
+            "minecraft:mud",
+            "minecraft:sugar",
+            "minecraft:egg"
     ],
     "result": {
         "id": "minecraft:mud",

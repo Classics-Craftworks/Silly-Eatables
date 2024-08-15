@@ -6,12 +6,8 @@
         " S "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:sugar"
-        },
-        "G": {
-            "item": "minecraft:glass"
-        }
+        "S": "minecraft:sugar",
+        "G": "minecraft:glass"
     },
     "result": {
         "id": "minecraft:glass",

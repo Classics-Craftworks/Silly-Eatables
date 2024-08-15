@@ -6,12 +6,8 @@
         " S "
     ],
     "key": {
-        "S": {
-            "item": "minecraft:sugar"
-        },
-        "O": {
-            "item": "minecraft:obsidian"
-        }
+        "S": "minecraft:sugar",
+        "O": "minecraft:obsidian"
     },
     "result": {
         "id": "minecraft:obsidian",
