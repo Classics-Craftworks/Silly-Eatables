@@ -22,16 +22,16 @@
                 "on_consume_effects": [
                     {
                         "type": "minecraft:apply_effects",
-                            "effect": {
-                                "id": "minecraft:instant_damage",
-                                "amplifier": 0,
-                                "duration": 1
-                            }
-                        },
-                        {
+                        "effect": {
+                            "id": "minecraft:instant_damage",
+                            "amplifier": 0,
+                            "duration": 1
+                         }
+                    },
+                    {
                         "type": "minecraft:play_sound",
-                            "sound": "entity.generic.explode"
-                        }
+                        "sound": "entity.generic.explode"
+                    }
                 ]
             },
             "minecraft:item_name": "\"Explosive Treat\""
