@@ -37,10 +37,10 @@
                                 "id": "minecraft:nausea",
                                 "amplifier": 4,
                                 "duration": 140
-                            },
-                            "play_sound": {
-                                "sound": "block.bell.resonate"
                             }
+                        },
+                        "minecraft:play_sound": {
+                            "sound": "block.bell.resonate"
                         }
                     }
                 ]

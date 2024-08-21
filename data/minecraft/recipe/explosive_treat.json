@@ -26,10 +26,10 @@
                                 "id": "minecraft:instant_damage",
                                 "amplifier": 0,
                                 "duration": 1
-                            },
-                            "play_sound": {
-                                "sound": "entity.generic.explode"
                             }
+                        },
+                        "minecraft:play_sound": {
+                            "sound": "entity.generic.explode"
                         }
                     }
                 ]
