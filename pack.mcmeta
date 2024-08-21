@@ -2,6 +2,6 @@
 	"pack":{
 		"pack_format": 50,
 		"supported_formats": {"min_inclusive": 50, "max_inclusive": 50},
-		"description": "§bSilly Eatables §7v1.3.0-beta2\n§fMinecraft 1.21.2 Snapshots"
+		"description": "§bSilly Eatables §7v1.3.0-beta3\n§fMinecraft 1.21.2 Snapshots"
 	}
 }
