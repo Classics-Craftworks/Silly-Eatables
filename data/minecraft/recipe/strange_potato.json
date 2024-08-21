@@ -33,7 +33,7 @@
                 "on_consume_effects": [
                     {
                         "type": "minecraft:apply_effects",
-                        "effect": {
+                        "effects": {
                             "id": "minecraft:nausea",
                             "amplifier": 4,
                             "duration": 140
