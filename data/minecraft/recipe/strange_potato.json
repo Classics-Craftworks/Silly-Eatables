@@ -8,8 +8,8 @@
     "key": {
         "S": "minecraft:sugar",
         "M": [
-                "minecraft:red_mushroom",
-                "minecraft:brown_mushroom"
+            "minecraft:red_mushroom",
+            "minecraft:brown_mushroom"
         ],
         "P": "minecraft:potato"
     },
@@ -20,28 +20,26 @@
             "minecraft:food": {
                 "nutrition": 1,
                 "saturation": 0,
-                "can_always_eat": false
+                "can_always_eat": false,
+                "using_converts_to": {
+                    "id": "poisonous_potato"
+                }
             },
             "minecraft:consumable": {
                 "consume_seconds": 1.6,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true,
-                "using_converts_to": {
-                    "id": "poisonous_potato"
-                },
                 "on_consume_effects": [
                     {
                         "type": "minecraft:apply_effects",
-                        "effects": {
-                            "id": "minecraft:nausea",
-                            "amplifier": 4,
-                            "duration": 140
-                        }
-                    },
-                    {
-                        "type": "minecraft:play_sound",
-                        "sound": "block.bell.resonate"
+                        "effects": [
+                            {
+                                "id": "minecraft:nausea",
+                                "amplifier": 4,
+                                "duration": 140
+                            }
+                        ]
                     }
                 ]
             },
