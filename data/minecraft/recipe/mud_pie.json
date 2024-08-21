@@ -11,9 +11,14 @@
         "components": {
             "minecraft:food": {
                 "nutrition": 4,
-                "saturation": 2,
-                "can_always_eat": false,
-                "eat_seconds": 1.6
+                "saturation": 2.0,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.6,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
             },
             "minecraft:item_name": "\"Mud Pie\""
         }

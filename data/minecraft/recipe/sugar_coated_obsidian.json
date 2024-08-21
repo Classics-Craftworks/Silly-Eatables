@@ -16,8 +16,13 @@
             "minecraft:food": {
                 "nutrition": 2,
                 "saturation": 1.5,
-                "can_always_eat": false,
-                "eat_seconds": 7.5
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 7.5,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
             },
             "minecraft:item_name": "\"Sugar-Coated Obsidian\""
         }

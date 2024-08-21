@@ -18,8 +18,13 @@
             "minecraft:food": {
                 "nutrition": 7,
                 "saturation": 3.0,
-                "can_always_eat": false,
-                "eat_seconds": 4.5
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 4.5,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
             },
             "minecraft:item_name": "\"Dirt Cake\""
         }

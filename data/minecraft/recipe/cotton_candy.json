@@ -16,8 +16,13 @@
             "minecraft:food": {
                 "nutrition": 0,
                 "saturation": 1.0,
-                "can_always_eat": true,
-                "eat_seconds": 1.0
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.0,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": false
             },
             "minecraft:item_name": "\"Cotton Candy\""
         }

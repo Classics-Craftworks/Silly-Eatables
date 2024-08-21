@@ -18,22 +18,32 @@
         "count": 1,
         "components": {
             "minecraft:food": {
-                "nutrition": 1.0,
+                "nutrition": 1,
                 "saturation": 0,
-                "can_always_eat": false,
-                "eat_seconds": 1.6,
-                "effects": [
-                    {
-                        "effect": {
-                            "id": "minecraft:nausea",
-                            "amplifier": 4,
-                            "duration": 140
-                        }
-                    }
-                ],
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.6,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true,
                 "using_converts_to": {
                     "id": "poisonous_potato"
-                }
+                },
+                "on_consume_effects": [
+                    {
+                        "minecraft:apply_effects": {
+                            "effect": {
+                                "id": "minecraft:nausea",
+                                "amplifier": 4,
+                                "duration": 140
+                            },
+                            "play_sound": {
+                                "sound": "block.bell.resonate"
+                            }
+                        }
+                    }
+                ]
             },
             "minecraft:item_name": "\"Strange Potato\""
         }

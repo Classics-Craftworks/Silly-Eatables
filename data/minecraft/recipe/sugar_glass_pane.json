@@ -16,8 +16,13 @@
             "minecraft:food": {
                 "nutrition": 0.5,
                 "saturation": 0,
-                "can_always_eat": true,
-                "eat_seconds": 0.5
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 0.5,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
             },
             "minecraft:item_name": "\"Sugar Glass Pane\""
         }
