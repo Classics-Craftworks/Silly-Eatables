@@ -21,17 +21,17 @@
                 "has_consume_particles": true,
                 "on_consume_effects": [
                     {
-                        "minecraft:apply_effects": {
+                        "type": "minecraft:apply_effects",
                             "effect": {
                                 "id": "minecraft:instant_damage",
                                 "amplifier": 0,
                                 "duration": 1
                             }
                         },
-                        "minecraft:play_sound": {
+                        {
+                        "type": "minecraft:play_sound",
                             "sound": "entity.generic.explode"
                         }
-                    }
                 ]
             },
             "minecraft:item_name": "\"Explosive Treat\""

@@ -32,17 +32,17 @@
                 },
                 "on_consume_effects": [
                     {
-                        "minecraft:apply_effects": {
+                        "type": "minecraft:apply_effects",
                             "effect": {
                                 "id": "minecraft:nausea",
                                 "amplifier": 4,
                                 "duration": 140
                             }
                         },
-                        "minecraft:play_sound": {
+                        {
+                        "type": "minecraft:play_sound",
                             "sound": "block.bell.resonate"
                         }
-                    }
                 ]
             },
             "minecraft:item_name": "\"Strange Potato\""
