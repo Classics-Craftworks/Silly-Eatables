@@ -28,7 +28,8 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true,
                 "using_converts_to": {
-                    "id": "poisonous_potato"
+                    "id": "minecraft:poisonous_potato",
+                    "count": 1
                 },
                 "on_consume_effects": [
                     {
