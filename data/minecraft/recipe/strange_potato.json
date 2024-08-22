@@ -20,11 +20,11 @@
             "minecraft:food": {
                 "nutrition": 1,
                 "saturation": 0,
-                "can_always_eat": false,
-                "using_converts_to": {
-                    "id": "poisonous_potato",
-                    "count": 1
-                }
+                "can_always_eat": false
+            },
+            "minecraft:use_remainder": {
+                "id": "minecraft:poisonous_potato",
+                "count": 1
             },
             "minecraft:consumable": {
                 "consume_seconds": 1.6,
@@ -41,6 +41,10 @@
                                 "duration": 140
                             }
                         ]
+                    },
+                    {
+                        "type": "minecraft:play_sound",
+                        "sound": "block.bell.resonate"
                     }
                 ]
             },
