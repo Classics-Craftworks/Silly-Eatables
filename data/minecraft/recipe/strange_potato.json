@@ -48,6 +48,9 @@
                     }
                 ]
             },
+            "minecraft:use_cooldown": {
+                "seconds": 1.5
+            },
             "minecraft:item_name": "\"Strange Potato\""
         }
     }
