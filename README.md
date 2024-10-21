@@ -16,11 +16,12 @@ Foods/recipes in this data pack/mod can be found [here on the wiki](https://gith
 
 > [!IMPORTANT]
 > [Fabric API](https://modrinth.com/mod/fabric-api) is required for the mod version of Silly Eatables!
+>
 > Make sure to install the correct version for the version of Minecraft & Silly Eatables you are using.
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21.2 (24w34a - 1.21.2-rc1) |  [v1.3.0-beta11](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.0-beta11) |
+| 1.21.2 (24w34a - 1.21.2-rc2) |  [v1.3.0-beta11](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.0-beta11) |
 | 1.21 - 1.21.1 |  [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
 | 1.20.5 - 1.20.6 |  [v1.0.2](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.0.2) |
 
