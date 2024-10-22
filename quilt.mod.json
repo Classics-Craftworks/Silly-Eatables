@@ -3,7 +3,7 @@
   "quilt_loader": {
     "group": "org.classic36media",
     "id": "silly_eatables",
-    "version": "1.3.0-beta",
+    "version": "1.3.0",
     "metadata": {
       "name": "Silly Eatables",
       "description": "Eat things you shouldn't with these silly food recipes!",
