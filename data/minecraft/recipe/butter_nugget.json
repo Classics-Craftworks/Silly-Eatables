@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+            "minecraft:gold_nugget",
+            "minecraft:milk_bucket"
+    ],
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 0.5,
+                "saturation": 0.0,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 0.5,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "\"Butter Nugget\""
+        }
+    }
+}

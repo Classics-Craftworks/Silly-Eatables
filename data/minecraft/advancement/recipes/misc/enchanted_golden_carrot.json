@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:enchanted_golden_carrot"
+        ]
+    },
+    "criteria": {
+        "has_golden_carrot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_carrot"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:enchanted_golden_carrot"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_golden_carrot",
+            "has_recipe"
+        ]
+    ]
+}

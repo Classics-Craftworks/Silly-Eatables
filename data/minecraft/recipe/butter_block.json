@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+            "minecraft:gold_block",
+            "minecraft:milk_bucket"
+    ],
+    "result": {
+        "id": "minecraft:gold_block",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 2.0,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 3.2,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "\"Butter Block\""
+        }
+    }
+}

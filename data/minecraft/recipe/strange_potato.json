@@ -37,8 +37,8 @@
                         "effects": [
                             {
                                 "id": "minecraft:nausea",
-                                "amplifier": 4,
-                                "duration": 140
+                                "amplifier": 2,
+                                "duration": 280
                             }
                         ]
                     },

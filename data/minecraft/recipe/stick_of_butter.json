@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+            "minecraft:gold_ingot",
+            "minecraft:milk_bucket"
+    ],
+    "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 0.0,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.1,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "\"Stocl of Butter\""
+        }
+    }
+}
