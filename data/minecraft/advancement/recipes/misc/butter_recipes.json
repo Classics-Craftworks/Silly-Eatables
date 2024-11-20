@@ -3,8 +3,10 @@
     "rewards": {
         "recipes": [
             "minecraft:stick_of_butter",
-            "minecraft:butter_block",
-            "minecraft:butter_nugget"
+            "minecraft:clump_of_butter",
+            "minecraft:smooth_block_of_butter",
+            "minecraft:clumpy_block_of_butter",
+            "minecraft:nugget_of_butter"
         ]
     },
     "criteria": {

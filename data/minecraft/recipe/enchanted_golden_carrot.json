@@ -46,6 +46,11 @@
                                 "id": "minecraft:resistance",
                                 "amplifier": 0,
                                 "duration": 2400
+                            },
+                            {
+                                "id": "minecraft:slowness",
+                                "amplifier": 4,
+                                "duration": 400
                             }
                         ]
                     }

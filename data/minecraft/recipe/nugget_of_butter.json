@@ -19,7 +19,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Butter Nugget\""
+            "minecraft:item_name": "\"Nugget of Butter\""
         }
     }
 }

@@ -1,11 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-            "minecraft:gold_block",
+            "minecraft:raw_gold_block",
             "minecraft:milk_bucket"
     ],
     "result": {
-        "id": "minecraft:gold_block",
+        "id": "minecraft:raw_gold_block",
         "count": 1,
         "components": {
             "minecraft:food": {
@@ -14,12 +14,12 @@
                 "can_always_eat": false
             },
             "minecraft:consumable": {
-                "consume_seconds": 3.2,
+                "consume_seconds": 3.8,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Butter Block\""
+            "minecraft:item_name": "\"Clumpy Block of Butter\""
         }
     }
 }

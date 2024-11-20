@@ -1,25 +1,25 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-            "minecraft:gold_ingot",
+            "minecraft:gold_block",
             "minecraft:milk_bucket"
     ],
     "result": {
-        "id": "minecraft:gold_ingot",
+        "id": "minecraft:gold_block",
         "count": 1,
         "components": {
             "minecraft:food": {
-                "nutrition": 2,
-                "saturation": 0.0,
+                "nutrition": 4,
+                "saturation": 2.0,
                 "can_always_eat": false
             },
             "minecraft:consumable": {
-                "consume_seconds": 1.1,
+                "consume_seconds": 3.2,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Stick of Butter\""
+            "minecraft:item_name": "\"Smooth Block of Butter\""
         }
     }
 }

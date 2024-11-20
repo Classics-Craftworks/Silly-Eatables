@@ -1,11 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-            "minecraft:gold_ingot",
+            "minecraft:raw_gold",
             "minecraft:milk_bucket"
     ],
     "result": {
-        "id": "minecraft:gold_ingot",
+        "id": "minecraft:raw_gold",
         "count": 1,
         "components": {
             "minecraft:food": {
@@ -14,12 +14,12 @@
                 "can_always_eat": false
             },
             "minecraft:consumable": {
-                "consume_seconds": 1.1,
+                "consume_seconds": 1.8,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Stick of Butter\""
+            "minecraft:item_name": "\"Clump of Butter\""
         }
     }
 }
