@@ -24,7 +24,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Sugar-Coated Obsidian\""
+            "minecraft:item_name": "Sugar-Coated Obsidian"
         }
     }
 }

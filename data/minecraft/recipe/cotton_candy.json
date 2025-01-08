@@ -24,7 +24,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": false
             },
-            "minecraft:item_name": "\"Cotton Candy\""
+            "minecraft:item_name": "Cotton Candy"
         }
     }
 }

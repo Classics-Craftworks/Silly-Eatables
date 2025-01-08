@@ -20,7 +20,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Mud Pie\""
+            "minecraft:item_name": "Mud Pie"
         }
     }
 }

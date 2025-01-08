@@ -24,7 +24,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Sugar Glass Pane\""
+            "minecraft:item_name": "Sugar Glass Pane"
         }
     }
 }

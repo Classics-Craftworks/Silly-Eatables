@@ -19,7 +19,7 @@
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
             },
-            "minecraft:item_name": "\"Smooth Block of Butter\""
+            "minecraft:item_name": "Smooth Block of Butter"
         }
     }
 }
