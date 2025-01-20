@@ -11,7 +11,10 @@
             "minecraft:sugar_coated_bedrock",
             "minecraft:sugar_coated_obsidian",
             "minecraft:sugar_glass_block",
-            "minecraft:sugar_glass_pane"
+            "minecraft:sugar_glass_pane",
+            "minecraft:milk_chocolate_bar",
+            "minecraft:dark_chocolate_bar",
+            "minecraft:orange_chocolate_bar"
         ]
     },
     "criteria": {

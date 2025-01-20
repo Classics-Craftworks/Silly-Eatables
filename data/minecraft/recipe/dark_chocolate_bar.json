@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "SBS",
+        " C "
+    ],
+    "key": {
+        "S": "minecraft:sugar",
+        "B": "minecraft:nether_brick",
+        "C": "minecraft:cocoa_beans"
+    },
+    "result": {
+        "id": "minecraft:nether_brick",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1.0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.2,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "Dark Chocolate Bar"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "SBS",
+        " M "
+    ],
+    "key": {
+        "S": "minecraft:sugar",
+        "B": "minecraft:brick",
+        "C": "minecraft:cocoa_beans",
+        "M": "minecraft:milk_bucket"
+    },
+    "result": {
+        "id": "minecraft:brick",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 3,
+                "saturation": 1.0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.2,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "Milk Chocolate Bar"
+        }
+    }
+}
