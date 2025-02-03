@@ -37,7 +37,7 @@
                 ]
             },
             "minecraft:use_cooldown": {
-                "seconds": 2
+                "seconds": 4
             },
             "minecraft:item_name": "Explosive Treat"
         }
