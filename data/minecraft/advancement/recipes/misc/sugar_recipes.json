@@ -14,7 +14,8 @@
             "minecraft:sugar_glass_pane",
             "minecraft:milk_chocolate_bar",
             "minecraft:dark_chocolate_bar",
-            "minecraft:orange_chocolate_bar"
+            "minecraft:orange_chocolate_bar",
+            "minecraft:sweet_tnt"
         ]
     },
     "criteria": {

@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "STS",
+        " S "
+    ],
+    "key": {
+        "S": "minecraft:sugar",
+        "T": "minecraft:tnt"
+    },
+    "result": {
+        "id": "minecraft:tnt",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 0.5,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 1.6,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true,
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:instant_damage",
+                                "amplifier": 0,
+                                "duration": 1
+                            },
+                            {
+                                "id": "minecraft:speed",
+                                "amplifier": 0,
+                                "duration": 200
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:play_sound",
+                        "sound": "entity.generic.explode"
+                    }
+                ]
+            },
+            "minecraft:use_cooldown": {
+                "seconds": 4
+            },
+            "minecraft:item_name": "Sweet TNT"
+        }
+    }
+}
