@@ -3,7 +3,7 @@
     "ingredients": [
             "minecraft:mud",
             "minecraft:sugar",
-            "minecraft:egg"
+            "#minecraft:eggs"
     ],
     "result": {
         "id": "minecraft:mud",
