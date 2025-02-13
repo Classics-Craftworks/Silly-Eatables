@@ -21,7 +21,7 @@ Food recipes in this data pack/mod can be found [here on the wiki](https://githu
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 25w06a |  [v2.1.0-beta6](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v2.1.0-beta6) |
+| 25w06a - 25w07a |  [v2.1.0-beta7](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v2.1.0-beta7) |
 | 1.21.4 |  [v2.0.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v2.0.0) |
 | 1.21.2 - 1.21.3 |  [v1.3.1](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.1) |
 | 1.21 - 1.21.1 |  [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
