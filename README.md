@@ -15,9 +15,9 @@ Food recipes in this data pack/mod can be found [here on the wiki](https://githu
 ## Versions
 
 > [!IMPORTANT]
-> [Fabric API](https://modrinth.com/mod/fabric-api) is required for the mod version of Silly Eatables!
+> [Fabric API](https://modrinth.com/mod/fabric-api) is required to run the mod version of Silly Eatables.
 >
-> Make sure to install the correct version of Fabric API for the version of Minecraft & Silly Eatables you are using.
+> Be sure to install the correct Fabric API version that matches your Minecraft and Silly Eatables versions.
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
