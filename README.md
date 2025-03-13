@@ -33,3 +33,7 @@ Versions for older game updates and snapshots can be found [here](https://github
 Please open any support or feature requests [here on GitHub](https://github.com/Classic36-Media/Silly-Eatables/issues/new/choose) or on Discord:
 
 [![](https://img.shields.io/discord/1107084025442607206?label=Discord&style=for-the-badge&color=5865F2&logo=discord)](https://discord.gg/vZJSDjPcmu)
+
+***
+
+###### Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
