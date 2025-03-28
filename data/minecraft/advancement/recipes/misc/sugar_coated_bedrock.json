@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:sugar_coated_bedrock"
+        ]
+    },
+    "criteria": {
+        "has_bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:sugar_coated_bedrock"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_bedrock",
+            "has_recipe"
+        ]
+    ]
+}

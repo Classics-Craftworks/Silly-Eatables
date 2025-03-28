@@ -2,20 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:stick_of_butter",
-            "minecraft:clump_of_butter",
-            "minecraft:smooth_block_of_butter",
-            "minecraft:clumpy_block_of_butter",
-            "minecraft:nugget_of_butter"
+            "minecraft:sweet_tnt"
         ]
     },
     "criteria": {
-        "has_milk_bucket": {
+        "has_tnt": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "item": "minecraft:tnt"
                     }
                 ]
             }
@@ -23,13 +19,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:stick_of_butter"
+                "recipe": "minecraft:sweet_tnt"
             }
         }
     },
     "requirements": [
         [
-            "has_milk_bucket",
+            "has_tnt",
             "has_recipe"
         ]
     ]

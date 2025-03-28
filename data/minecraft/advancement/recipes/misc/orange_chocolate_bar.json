@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "minecraft:orange_chocolate_bar"
+        ]
+    },
+    "criteria": {
+        "has_resin_brick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:resin_brick"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "minecraft:orange_chocolate_bar"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_resin_brick",
+            "has_recipe"
+        ]
+    ]
+}
