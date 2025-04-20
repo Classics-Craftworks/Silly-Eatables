@@ -16,6 +16,19 @@
                 ]
             }
         },
+        "has_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_mushroom"
+                    },
+                    {
+                        "item": "minecraft:brown_mushroom"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -26,6 +39,7 @@
     "requirements": [
         [
             "has_potato",
+            "has_mushroom",
             "has_recipe"
         ]
     ]

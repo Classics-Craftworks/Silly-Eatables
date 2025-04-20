@@ -6,12 +6,32 @@
         ]
     },
     "criteria": {
-        "has_cocoa_beans": {
+        "has_cookie": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cocoa_beans"
+                        "item": "minecraft:cookie"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_gunpowder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder"
                     }
                 ]
             }
@@ -25,7 +45,9 @@
     },
     "requirements": [
         [
-            "has_cocoa_beans",
+            "has_cookie",
+            "has_sugar",
+            "has_gunpowder",
             "has_recipe"
         ]
     ]

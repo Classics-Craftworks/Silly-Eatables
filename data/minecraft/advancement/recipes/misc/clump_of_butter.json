@@ -16,6 +16,16 @@
                 ]
             }
         },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -26,6 +36,7 @@
     "requirements": [
         [
             "has_raw_gold",
+            "has_milk",
             "has_recipe"
         ]
     ]

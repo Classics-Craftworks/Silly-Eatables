@@ -16,6 +16,26 @@
                 ]
             }
         },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_cocoa_beans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -26,6 +46,8 @@
     "requirements": [
         [
             "has_nether_brick",
+            "has_sugar",
+            "has_cocoa_beans",
             "has_recipe"
         ]
     ]

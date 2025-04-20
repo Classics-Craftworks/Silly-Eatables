@@ -6,12 +6,42 @@
         ]
     },
     "criteria": {
+        "has_cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
         "has_milk": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wheat"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
                     }
                 ]
             }
@@ -25,7 +55,10 @@
     },
     "requirements": [
         [
+            "has_cobblestone",
             "has_milk",
+            "has_wheat",
+            "has_sugar",
             "has_recipe"
         ]
     ]

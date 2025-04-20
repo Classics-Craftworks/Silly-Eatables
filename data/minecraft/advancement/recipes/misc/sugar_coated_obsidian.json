@@ -16,6 +16,16 @@
                 ]
             }
         },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -26,6 +36,7 @@
     "requirements": [
         [
             "has_obsidian",
+            "has_sugar",
             "has_recipe"
         ]
     ]
