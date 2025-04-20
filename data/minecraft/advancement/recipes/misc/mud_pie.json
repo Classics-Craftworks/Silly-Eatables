@@ -26,6 +26,16 @@
                 ]
             }
         },
+        "has_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:egg"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
@@ -37,6 +47,7 @@
         [
             "has_mud",
             "has_sugar",
+            "has_egg",
             "has_recipe"
         ]
     ]
