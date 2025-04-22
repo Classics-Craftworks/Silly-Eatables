@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SS ",
+        "SS "
+    ],
+    "key": {
+        "S": "minecraft:sugar"
+    },
+    "result": {
+        "id": "minecraft:sugar",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 0.6,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true,
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:speed",
+                                "amplifier": 4,
+                                "duration": 300
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_name": "Super Sugar"
+        }
+    }
+}
