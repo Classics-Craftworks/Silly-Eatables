@@ -12,12 +12,12 @@
         "count": 1,
         "components": {
             "minecraft:food": {
-                "nutrition": 1,
-                "saturation": 0,
+                "nutrition": 3,
+                "saturation": 2,
                 "can_always_eat": true
             },
             "minecraft:consumable": {
-                "consume_seconds": 0.6,
+                "consume_seconds": 0.4,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true,

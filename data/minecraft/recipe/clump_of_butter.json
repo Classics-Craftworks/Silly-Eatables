@@ -10,11 +10,11 @@
         "components": {
             "minecraft:food": {
                 "nutrition": 2,
-                "saturation": 0.0,
+                "saturation": 1.0,
                 "can_always_eat": false
             },
             "minecraft:consumable": {
-                "consume_seconds": 1.8,
+                "consume_seconds": 1.2,
                 "animation": "eat",
                 "sound": "entity.generic.eat",
                 "has_consume_particles": true
