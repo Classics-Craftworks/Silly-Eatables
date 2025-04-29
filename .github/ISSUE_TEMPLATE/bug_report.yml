@@ -20,6 +20,7 @@ body:
       description: Which version of Silly Eatables are you using? If it's not listed, please consider updating!
       options:
         - v3.2.0-beta4
+        - v3.1.0+forge
         - v3.1.0+mod
         - v3.1.0
         - v3.0.0+mod
@@ -40,8 +41,8 @@ body:
     id: modloaderversion
     attributes:
       label: Mod Loader Version
-      description: If running as a mod, which mod loader & Fabric API version are you using?
-      placeholder: "Example: Fabric Loader v0.16.14 with Fabric API v0.121.0 for Minecraft 1.21.5"
+      description: If running as a mod, which mod loader (and Fabric API version, if running Fabric/Quilt) are you using?
+      placeholder: "Examples: 'Fabric Loader v0.16.14 with Fabric API v0.121.0 for Minecraft 1.21.5' or 'NeoForge 21.5.0 for Minecraft 1.21.5'"
     validations:
       required: false
   - type: textarea

@@ -1,6 +1,6 @@
 ![image](https://i.imgur.com/SIx9XZZ.png)
 
-Eat things you shouldn't with this basic Minecraft data pack that adds some silly food crafting recipes to the game!
+Eat things you shouldn't with this Minecraft data pack and mod that adds some silly food crafting recipes to the game!
 
 ## Downloads
 
@@ -14,11 +14,6 @@ Food recipes in this data pack/mod can be found [here on the wiki](https://githu
 
 ## Versions
 
-> [!IMPORTANT]
-> [Fabric API](https://modrinth.com/mod/fabric-api) is required to run the mod version of Silly Eatables.
->
-> Be sure to install the correct Fabric API version that matches your Minecraft and Silly Eatables versions.
-
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
 | 1.21.5 - 25w18a |  [v3.2.0-beta4](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v3.2.0-beta4) |
@@ -29,6 +24,18 @@ Food recipes in this data pack/mod can be found [here on the wiki](https://githu
 
 Versions for older game updates and snapshots can be found [here](https://github.com/Classic36-Media/Silly-Eatables/wiki/Versions).
 
+**Supported Mod Loaders:**
+
+* Fabric
+* Quilt
+* Forge
+* NeoForge
+
+> [!IMPORTANT]
+> [Fabric API](https://modrinth.com/mod/fabric-api) is required to run the Fabric/Quilt mod version of Silly Eatables.
+>
+> Be sure to install the correct mod loader version that matches your Minecraft and Silly Eatables versions.
+
 ## Support & Feature Requests
 Please open any support or feature requests [here on GitHub](https://github.com/Classic36-Media/Silly-Eatables/issues/new/choose) or on Discord:
 
@@ -36,4 +43,4 @@ Please open any support or feature requests [here on GitHub](https://github.com/
 
 ***
 
-###### Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
+**Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.**
