@@ -1,0 +1,27 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="silly_eatables"
+version="3.1.0"
+displayName="Silly Eatables"
+logoFile="pack.png"
+displayURL="https://modrinth.com/datapack/silly_eatables"
+credits="https://github.com/Classic36-Media/Silly_Eatables/wiki/Credits"
+authors="Classic36"
+description="Eat things you shouldn't with these silly food recipes for Minecraft!"
+
+[[dependencies.silly_eatables]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.5.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.silly_eatables]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.5]"
+    ordering="AFTER"
+    side="BOTH"
