@@ -8,9 +8,15 @@ Eat things you shouldn't with this Minecraft data pack and mod that adds some si
 [![](https://img.shields.io/github/downloads/Classic36-Media/Silly-Eatables/total?label=GitHub&style=for-the-badge&color=181717&logo=github)](https://github.com/Classic36-Media/Silly-Eatables/releases)
 [![](https://img.shields.io/spiget/downloads/116362?label=SpigotMC&style=for-the-badge&color=ED8106&logo=spigotmc)](https://www.spigotmc.org/resources/silly-eatables.116362/)
 
-## Food Recipes
+## Overview
 
-Food recipes in this data pack/mod can be found [here on the wiki](https://github.com/Classic36-Media/Silly-Eatables/wiki/Food-Recipes).
+Silly Eatables, available as a data pack, a Fabric/Quilt mod and a Forge/NeoForge mod, adds new and silly recipes such as:
+
+* Sugar-coated Obsidian
+* Explosive Treats
+* Dirt Cakes
+
+Check out the [Food Recipes](https://github.com/Classic36-Media/Silly-Eatables/wiki/Food-Recipes) page on the wiki for a full list, which also includes additional information such as Nutrition and Saturation values!
 
 ## Versions
 
@@ -22,22 +28,14 @@ Food recipes in this data pack/mod can be found [here on the wiki](https://githu
 | 1.21.2 - 1.21.3 |  [v1.3.1](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.1) |
 | 1.21 - 1.21.1 |  [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
 
-Versions for older game updates and snapshots can be found [here](https://github.com/Classic36-Media/Silly-Eatables/wiki/Versions).
-
-**Supported Mod Loaders:**
-
-* Fabric
-* Quilt
-* Forge
-* NeoForge
+Older versions and snapshots can be found [on Modrinth](https://modrinth.com/datapack/silly-eatables/versions) or [here on GitHub](https://github.com/Classic36-Media/Silly-Eatables/wiki/Versions).
 
 > [!IMPORTANT]
-> [Fabric API](https://modrinth.com/mod/fabric-api) is required to run the Fabric/Quilt mod version of Silly Eatables.
->
-> Be sure to install the correct mod loader version that matches your Minecraft and Silly Eatables versions.
+> Make sure you download the correct version that matches your Minecraft version and mod loader if you are using Fabric or Forge. Please note that **[Fabric API](https://modrinth.com/mod/fabric-api) is required to run the Fabric/Quilt mod version** of Silly Eatables.
 
-## Support & Feature Requests
-Please open any support or feature requests [here on GitHub](https://github.com/Classic36-Media/Silly-Eatables/issues/new/choose) or on Discord:
+## Support & Feedback
+* Open a [GitHub issue](https://github.com/Classic36-Media/Silly-Eatables/issues/new/choose)
+* Join Discord:
 
 [![](https://img.shields.io/discord/1107084025442607206?label=Discord&style=for-the-badge&color=5865F2&logo=discord)](https://discord.gg/vZJSDjPcmu)
 
