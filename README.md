@@ -10,7 +10,7 @@ Eat things you shouldn't with this Minecraft data pack and mod that adds some si
 
 ## Overview
 
-Silly Eatables, available as a data pack, a Fabric/Quilt mod and a Forge/NeoForge mod, adds new and silly recipes such as:
+Silly Eatables, available as a data pack and a Fabric/Quilt/Forge/NeoForge mod, adds new and silly recipes such as:
 
 * Sugar-coated Obsidian
 * Explosive Treats
