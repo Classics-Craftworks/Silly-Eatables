@@ -22,11 +22,11 @@ Check out the [Food Recipes](https://github.com/Classic36-Media/Silly-Eatables/w
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 1.21.5 - 1.21.6-pre2 |  [v3.2.0-pre3](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v3.2.0-pre3) |
-| 1.21.5 |  [v3.1.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v3.1.0) |
-| 1.21.4 |  [v2.0.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v2.0.0) |
-| 1.21.2 - 1.21.3 |  [v1.3.1](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.1) |
-| 1.21 - 1.21.1 |  [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
+| 1.21.5 - 1.21.6-pre3 | [v3.2.0-pre4](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v3.2.0-pre4) |
+| 1.21.5 | [v3.1.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v3.1.0) |
+| 1.21.4 | [v2.0.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v2.0.0) |
+| 1.21.2 - 1.21.3 | [v1.3.1](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.3.1) |
+| 1.21 - 1.21.1 | [v1.2.0](https://github.com/Classic36-Media/Silly-Eatables/releases/tag/v1.2.0) |
 
 Older versions and snapshots can be found [on Modrinth](https://modrinth.com/datapack/silly-eatables/versions) or [here on GitHub](https://github.com/Classic36-Media/Silly-Eatables/wiki/Versions).
 
