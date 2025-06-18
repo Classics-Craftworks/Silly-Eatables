@@ -10,7 +10,7 @@ logoFile="pack.png"
 displayURL="https://modrinth.com/datapack/silly_eatables"
 credits="https://github.com/Classic36-Media/Silly_Eatables/wiki/Credits"
 authors="Classic36"
-description="Eat things you shouldn't with these silly food recipes for Minecraft!"
+description="Eat things you shouldn't with these silly food recipes!"
 
 [[dependencies.silly_eatables]]
     modId="forge"
