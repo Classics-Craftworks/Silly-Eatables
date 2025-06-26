@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="silly_eatables"
-version="3.2.0"
+version="3.2.1-pre"
 displayName="Silly Eatables"
 logoFile="pack.png"
 displayURL="https://modrinth.com/datapack/silly_eatables"
