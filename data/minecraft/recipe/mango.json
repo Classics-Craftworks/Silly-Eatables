@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+            "minecraft:apple"
+    ],
+    "result": {
+        "id": "minecraft:apple",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": "\"Mango\""
+        }
+    }
+}
