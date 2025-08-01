@@ -1,10 +1,10 @@
 modLoader="lowcodefml"
-loaderVersion="[55,)"
+loaderVersion="[59,)"
 license="MIT"
 
 [[mods]]
 modId="silly_eatables"
-version="3.3.0-beta"
+version="4.0.0-beta"
 displayName="Silly Eatables"
 logoFile="pack.png"
 displayURL="https://modrinth.com/datapack/silly_eatables"
@@ -15,13 +15,13 @@ description="Eat things you shouldn't with these silly food recipes!"
 [[dependencies.silly_eatables]]
     modId="forge"
     mandatory=true
-    versionRange="[55,)"
+    versionRange="[59,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.silly_eatables]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.21.5,1.21.8]"
+    versionRange="[1.21.9]"
     ordering="AFTER"
     side="BOTH"
