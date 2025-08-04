@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:clumpy_block_of_butter"
+            "silly_eatables:clump_of_butter"
         ]
     },
     "criteria": {
-        "has_raw_gold_block": {
+        "has_raw_gold": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:raw_gold_block"
+                        "item": "minecraft:raw_gold"
                     }
                 ]
             }
@@ -29,13 +29,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:clumpy_block_of_butter"
+                "recipe": "silly_eatables:clump_of_butter"
             }
         }
     },
     "requirements": [
         [
-            "has_raw_gold_block",
+            "has_raw_gold",
             "has_milk",
             "has_recipe"
         ]

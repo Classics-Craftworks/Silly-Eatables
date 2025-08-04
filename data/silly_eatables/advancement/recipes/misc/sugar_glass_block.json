@@ -2,29 +2,26 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:strange_potato"
+            "silly_eatables:sugar_glass_block"
         ]
     },
     "criteria": {
-        "has_potato": {
+        "has_glass_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:potato"
+                        "item": "minecraft:glass_block"
                     }
                 ]
             }
         },
-        "has_mushroom": {
+        "has_sugar": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:red_mushroom"
-                    },
-                    {
-                        "item": "minecraft:brown_mushroom"
+                        "item": "minecraft:sugar"
                     }
                 ]
             }
@@ -32,14 +29,14 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:strange_potato"
+                "recipe": "silly_eatables:sugar_glass_block"
             }
         }
     },
     "requirements": [
         [
-            "has_potato",
-            "has_mushroom",
+            "has_glass_block",
+            "has_sugar",
             "has_recipe"
         ]
     ]

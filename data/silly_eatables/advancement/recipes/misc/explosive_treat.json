@@ -2,36 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:dirt_cake"
+            "silly_eatables:explosive_treat"
         ]
     },
     "criteria": {
-        "has_dirt": {
+        "has_cookie": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dirt"
-                    }
-                ]
-            }
-        },
-        "has_milk": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:milk_bucket"
-                    }
-                ]
-            }
-        },
-        "has_wheat": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wheat"
+                        "item": "minecraft:cookie"
                     }
                 ]
             }
@@ -46,19 +26,28 @@
                 ]
             }
         },
+        "has_gunpowder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:dirt_cake"
+                "recipe": "silly_eatables:explosive_treat"
             }
         }
     },
     "requirements": [
         [
-            "has_dirt",
-            "has_milk",
-            "has_wheat",
+            "has_cookie",
             "has_sugar",
+            "has_gunpowder",
             "has_recipe"
         ]
     ]

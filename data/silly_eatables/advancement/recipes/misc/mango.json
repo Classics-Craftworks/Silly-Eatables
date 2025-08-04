@@ -2,26 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:stick_of_butter"
+            "silly_eatables:mango"
         ]
     },
     "criteria": {
-        "has_gold_ingot": {
+        "has_apple": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_ingot"
-                    }
-                ]
-            }
-        },
-        "has_milk": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:milk_bucket"
+                        "item": "minecraft:apple"
                     }
                 ]
             }
@@ -29,14 +19,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:stick_of_butter"
+                "recipe": "silly_eatables:mango"
             }
         }
     },
     "requirements": [
         [
-            "has_gold_ingot",
-            "has_milk",
+            "has_apple",
             "has_recipe"
         ]
     ]

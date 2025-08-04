@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:dark_chocolate_bar"
+            "silly_eatables:sugar_coated_obsidian"
         ]
     },
     "criteria": {
-        "has_nether_brick": {
+        "has_obsidian": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:nether_brick"
+                        "item": "minecraft:obsidian"
                     }
                 ]
             }
@@ -26,28 +26,17 @@
                 ]
             }
         },
-        "has_cocoa_beans": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ]
-            }
-        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:dark_chocolate_bar"
+                "recipe": "silly_eatables:sugar_coated_obsidian"
             }
         }
     },
     "requirements": [
         [
-            "has_nether_brick",
+            "has_obsidian",
             "has_sugar",
-            "has_cocoa_beans",
             "has_recipe"
         ]
     ]

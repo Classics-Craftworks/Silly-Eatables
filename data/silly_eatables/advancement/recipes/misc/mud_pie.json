@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:orange_chocolate_bar"
+            "silly_eatables:mud_pie"
         ]
     },
     "criteria": {
-        "has_resin_brick": {
+        "has_mud": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:resin_brick"
+                        "item": "minecraft:mud"
                     }
                 ]
             }
@@ -26,22 +26,18 @@
                 ]
             }
         },
-        "has_cocoa_beans": {
+        "has_egg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cocoa_beans"
-                    }
-                ]
-            }
-        },
-        "has_milk": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
+                        "item": "minecraft:egg"
+                    },
                     {
-                        "item": "minecraft:milk_bucket"
+                        "item": "minecraft:blue_egg"
+                    },
+                    {
+                        "item": "minecraft:brown_egg"
                     }
                 ]
             }
@@ -49,16 +45,15 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:orange_chocolate_bar"
+                "recipe": "silly_eatables:mud_pie"
             }
         }
     },
     "requirements": [
         [
-            "has_resin_brick",
+            "has_mud",
             "has_sugar",
-            "has_cocoa_beans",
-            "has_milk",
+            "has_egg",
             "has_recipe"
         ]
     ]

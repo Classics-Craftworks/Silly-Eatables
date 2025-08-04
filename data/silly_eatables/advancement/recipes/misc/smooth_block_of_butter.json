@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:dragon_cake"
+            "silly_eatables:smooth_block_of_butter"
         ]
     },
     "criteria": {
-        "has_dragon_egg": {
+        "has_gold_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dragon_egg"
+                        "item": "minecraft:gold_block"
                     }
                 ]
             }
@@ -26,39 +26,17 @@
                 ]
             }
         },
-        "has_wheat": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wheat"
-                    }
-                ]
-            }
-        },
-        "has_sugar": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:sugar"
-                    }
-                ]
-            }
-        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:dragon_cake"
+                "recipe": "silly_eatables:smooth_block_of_butter"
             }
         }
     },
     "requirements": [
         [
-            "has_dragon_egg",
+            "has_gold_block",
             "has_milk",
-            "has_wheat",
-            "has_sugar",
             "has_recipe"
         ]
     ]

@@ -2,26 +2,26 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:smooth_block_of_butter"
+            "silly_eatables:ice_cream_cone"
         ]
     },
     "criteria": {
-        "has_gold_block": {
+        "has_sugar": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_block"
+                        "item": "minecraft:sugar"
                     }
                 ]
             }
         },
-        "has_milk": {
+        "has_dripstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "item": "minecraft:pointed_dripstone"
                     }
                 ]
             }
@@ -29,14 +29,14 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:smooth_block_of_butter"
+                "recipe": "silly_eatables:ice_cream_cone"
             }
         }
     },
     "requirements": [
         [
-            "has_gold_block",
-            "has_milk",
+            "has_sugar",
+            "has_dripstone",
             "has_recipe"
         ]
     ]

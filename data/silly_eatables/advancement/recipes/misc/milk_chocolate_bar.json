@@ -2,16 +2,36 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:nugget_of_butter"
+            "silly_eatables:milk_chocolate_bar"
         ]
     },
     "criteria": {
-        "has_gold_nugget": {
+        "has_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_nugget"
+                        "item": "minecraft:brick"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_cocoa_beans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cocoa_beans"
                     }
                 ]
             }
@@ -29,13 +49,15 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:nugget_of_butter"
+                "recipe": "silly_eatables:milk_chocolate_bar"
             }
         }
     },
     "requirements": [
         [
-            "has_gold_nugget",
+            "has_brick",
+            "has_sugar",
+            "has_cocoa_beans",
             "has_milk",
             "has_recipe"
         ]

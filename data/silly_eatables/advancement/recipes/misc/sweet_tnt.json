@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:sugar_glass_pane"
+            "silly_eatables:sweet_tnt"
         ]
     },
     "criteria": {
-        "has_glass_pane": {
+        "has_tnt": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:glass_pane"
+                        "item": "minecraft:tnt"
                     }
                 ]
             }
@@ -29,13 +29,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:sugar_glass_pane"
+                "recipe": "silly_eatables:sweet_tnt"
             }
         }
     },
     "requirements": [
         [
-            "has_glass_pane",
+            "has_tnt",
             "has_sugar",
             "has_recipe"
         ]

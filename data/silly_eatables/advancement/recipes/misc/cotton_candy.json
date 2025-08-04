@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:sweet_tnt"
+            "silly_eatables:cotton_candy"
         ]
     },
     "criteria": {
-        "has_tnt": {
+        "has_string": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:tnt"
+                        "item": "minecraft:string"
                     }
                 ]
             }
@@ -29,13 +29,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:sweet_tnt"
+                "recipe": "silly_eatables:cotton_candy"
             }
         }
     },
     "requirements": [
         [
-            "has_tnt",
+            "has_string",
             "has_sugar",
             "has_recipe"
         ]

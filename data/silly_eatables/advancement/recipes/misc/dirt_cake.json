@@ -2,16 +2,36 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:cotton_candy"
+            "silly_eatables:dirt_cake"
         ]
     },
     "criteria": {
-        "has_string": {
+        "has_dirt": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:string"
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wheat"
                     }
                 ]
             }
@@ -29,13 +49,15 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:cotton_candy"
+                "recipe": "silly_eatables:dirt_cake"
             }
         }
     },
     "requirements": [
         [
-            "has_string",
+            "has_dirt",
+            "has_milk",
+            "has_wheat",
             "has_sugar",
             "has_recipe"
         ]

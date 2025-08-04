@@ -2,36 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:rock_cake"
+            "silly_eatables:sugar_glass_pane"
         ]
     },
     "criteria": {
-        "has_cobblestone": {
+        "has_glass_pane": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cobblestone"
-                    }
-                ]
-            }
-        },
-        "has_milk": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:milk_bucket"
-                    }
-                ]
-            }
-        },
-        "has_wheat": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:wheat"
+                        "item": "minecraft:glass_pane"
                     }
                 ]
             }
@@ -49,15 +29,13 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:rock_cake"
+                "recipe": "silly_eatables:sugar_glass_pane"
             }
         }
     },
     "requirements": [
         [
-            "has_cobblestone",
-            "has_milk",
-            "has_wheat",
+            "has_glass_pane",
             "has_sugar",
             "has_recipe"
         ]

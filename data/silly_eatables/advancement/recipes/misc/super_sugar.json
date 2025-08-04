@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:ice_cream_cone"
+            "silly_eatables:super_sugar"
         ]
     },
     "criteria": {
@@ -16,27 +16,16 @@
                 ]
             }
         },
-        "has_dripstone": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:pointed_dripstone"
-                    }
-                ]
-            }
-        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:ice_cream_cone"
+                "recipe": "silly_eatables:super_sugar"
             }
         }
     },
     "requirements": [
         [
             "has_sugar",
-            "has_dripstone",
             "has_recipe"
         ]
     ]

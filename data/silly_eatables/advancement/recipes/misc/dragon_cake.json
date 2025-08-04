@@ -2,36 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:milk_chocolate_bar"
+            "silly_eatables:dragon_cake"
         ]
     },
     "criteria": {
-        "has_brick": {
+        "has_dragon_egg": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:brick"
-                    }
-                ]
-            }
-        },
-        "has_sugar": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:sugar"
-                    }
-                ]
-            }
-        },
-        "has_cocoa_beans": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:cocoa_beans"
+                        "item": "minecraft:dragon_egg"
                     }
                 ]
             }
@@ -46,19 +26,39 @@
                 ]
             }
         },
+        "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wheat"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:milk_chocolate_bar"
+                "recipe": "silly_eatables:dragon_cake"
             }
         }
     },
     "requirements": [
         [
-            "has_brick",
-            "has_sugar",
-            "has_cocoa_beans",
+            "has_dragon_egg",
             "has_milk",
+            "has_wheat",
+            "has_sugar",
             "has_recipe"
         ]
     ]

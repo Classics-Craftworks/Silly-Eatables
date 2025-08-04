@@ -2,26 +2,36 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:enchanted_golden_carrot"
+            "silly_eatables:dark_chocolate_bar"
         ]
     },
     "criteria": {
-        "has_golden_carrot": {
+        "has_nether_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:golden_carrot"
+                        "item": "minecraft:nether_brick"
                     }
                 ]
             }
         },
-        "has_gold_block": {
+        "has_sugar": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gold_block"
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_cocoa_beans": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cocoa_beans"
                     }
                 ]
             }
@@ -29,14 +39,15 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:enchanted_golden_carrot"
+                "recipe": "silly_eatables:dark_chocolate_bar"
             }
         }
     },
     "requirements": [
         [
-            "has_golden_carrot",
-            "has_gold_block",
+            "has_nether_brick",
+            "has_sugar",
+            "has_cocoa_beans",
             "has_recipe"
         ]
     ]

@@ -2,16 +2,36 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:sugar_coated_bedrock"
+            "silly_eatables:rock_cake"
         ]
     },
     "criteria": {
-        "has_bedrock": {
+        "has_cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bedrock"
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "has_wheat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wheat"
                     }
                 ]
             }
@@ -29,13 +49,15 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:sugar_coated_bedrock"
+                "recipe": "silly_eatables:rock_cake"
             }
         }
     },
     "requirements": [
         [
-            "has_bedrock",
+            "has_cobblestone",
+            "has_milk",
+            "has_wheat",
             "has_sugar",
             "has_recipe"
         ]

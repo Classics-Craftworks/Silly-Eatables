@@ -2,16 +2,26 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:super_sugar"
+            "silly_eatables:stick_of_butter"
         ]
     },
     "criteria": {
-        "has_sugar": {
+        "has_gold_ingot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "item": "minecraft:gold_ingot"
+                    }
+                ]
+            }
+        },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
                     }
                 ]
             }
@@ -19,13 +29,14 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:super_sugar"
+                "recipe": "silly_eatables:stick_of_butter"
             }
         }
     },
     "requirements": [
         [
-            "has_sugar",
+            "has_gold_ingot",
+            "has_milk",
             "has_recipe"
         ]
     ]

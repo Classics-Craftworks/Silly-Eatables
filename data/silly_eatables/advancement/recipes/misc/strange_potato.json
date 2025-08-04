@@ -2,26 +2,29 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:clump_of_butter"
+            "silly_eatables:strange_potato"
         ]
     },
     "criteria": {
-        "has_raw_gold": {
+        "has_potato": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:raw_gold"
+                        "item": "minecraft:potato"
                     }
                 ]
             }
         },
-        "has_milk": {
+        "has_mushroom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "item": "minecraft:red_mushroom"
+                    },
+                    {
+                        "item": "minecraft:brown_mushroom"
                     }
                 ]
             }
@@ -29,14 +32,14 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:clump_of_butter"
+                "recipe": "silly_eatables:strange_potato"
             }
         }
     },
     "requirements": [
         [
-            "has_raw_gold",
-            "has_milk",
+            "has_potato",
+            "has_mushroom",
             "has_recipe"
         ]
     ]

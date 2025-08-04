@@ -2,16 +2,16 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "minecraft:explosive_treat"
+            "silly_eatables:orange_chocolate_bar"
         ]
     },
     "criteria": {
-        "has_cookie": {
+        "has_resin_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cookie"
+                        "item": "minecraft:resin_brick"
                     }
                 ]
             }
@@ -26,12 +26,22 @@
                 ]
             }
         },
-        "has_gunpowder": {
+        "has_cocoa_beans": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gunpowder"
+                        "item": "minecraft:cocoa_beans"
+                    }
+                ]
+            }
+        },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
                     }
                 ]
             }
@@ -39,15 +49,16 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "minecraft:explosive_treat"
+                "recipe": "silly_eatables:orange_chocolate_bar"
             }
         }
     },
     "requirements": [
         [
-            "has_cookie",
+            "has_resin_brick",
             "has_sugar",
-            "has_gunpowder",
+            "has_cocoa_beans",
+            "has_milk",
             "has_recipe"
         ]
     ]
