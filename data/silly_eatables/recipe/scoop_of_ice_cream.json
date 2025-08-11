@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+            "minecraft:snowball",
+            "minecraft:sugar",
+            "minecraft:milk_bucket"
+    ],
+    "result": {
+        "id": "minecraft:snowball",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation": 1.2,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 0.8,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "Scoop of Ice Cream"
+        }
+    }
+}
