@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "silly_eatables:ice_pop"
+        ]
+    },
+    "criteria": {
+        "has_breeze_rod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:breeze_rod"
+                    }
+                ]
+            }
+        },
+        "has_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ice"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "silly_eatables:ice_pop"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_breeze_rod",
+            "has_ice",
+            "has_recipe"
+        ]
+    ]
+}
