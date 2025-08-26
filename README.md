@@ -24,7 +24,7 @@ Check out the [Food Recipes](https://github.com/Classics-Craftworks/Silly-Eatabl
 
 | Minecraft Version | Silly Eatables Version |
 | :--: | :--: |
-| 25w31a - 25w34b | [v4.0.0-beta4](https://github.com/Classics-Craftworks/Silly-Eatables/releases/tag/v4.0.0-beta4) |
+| 25w35a | [v4.0.0-pre1](https://github.com/Classics-Craftworks/Silly-Eatables/releases/tag/v4.0.0-pre1) |
 | 1.21.5 - 1.21.8 | [v3.2.2](https://github.com/Classics-Craftworks/Silly-Eatables/releases/tag/v3.2.2) |
 | 1.21.4 | [v2.0.0](https://github.com/Classics-Craftworks/Silly-Eatables/releases/tag/v2.0.0) |
 | 1.21.2 - 1.21.3 | [v1.3.1](https://github.com/Classics-Craftworks/Silly-Eatables/releases/tag/v1.3.1) |
