@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/SIx9XZZ.png)
+![image](https://i.postimg.cc/jdshMGy3/Banner.png)
 
 Eat things you shouldn't with this Minecraft data pack and mod that adds some silly food crafting recipes to the game!
 
