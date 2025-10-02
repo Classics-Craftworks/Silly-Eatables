@@ -23,13 +23,14 @@ Check out the [Food Recipes](https://github.com/Classics-Craftworks/Silly-Eatabl
 
 ## Versions
 
-| Minecraft Version | Silly Eatables Version |
-| :--: | :--: |
-| 1.21.9 | [v4.0.0](https://modrinth.com/datapack/silly-eatables/version/v4.0.0) |
-| 1.21.5 - 1.21.8 | [v3.2.2](https://modrinth.com/datapack/silly-eatables/version/v3.2.2) |
-| 1.21.4 | [v2.0.0](https://modrinth.com/datapack/silly-eatables/version/v2.0.0) |
-| 1.21.2 - 1.21.3 | [v1.3.1](https://modrinth.com/datapack/silly-eatables/version/v1.3.1) |
-| 1.21 - 1.21.1 | [v1.2.0](https://modrinth.com/datapack/silly-eatables/version/v1.2.0) |
+| Minecraft Version | Data Pack Version | Mod Version |
+| :--: | :--: | :--: |
+| 1.21.9 - 1.21.10-rc1 | [v4.0.0](https://modrinth.com/datapack/silly-eatables/version/v4.0.0) | [v4.0.1+mod](https://modrinth.com/datapack/silly-eatables/version/v4.0.1+mod) |
+| 1.21.9 | [v4.0.0](https://modrinth.com/datapack/silly-eatables/version/v4.0.0) | [v4.0.0+mod](https://modrinth.com/datapack/silly-eatables/version/v4.0.0+mod) |
+| 1.21.5 - 1.21.8 | [v3.2.2](https://modrinth.com/datapack/silly-eatables/version/v3.2.2) | [v3.2.2+mod](https://modrinth.com/datapack/silly-eatables/version/v3.2.2+mod) |
+| 1.21.4 | [v2.0.0](https://modrinth.com/datapack/silly-eatables/version/v2.0.0) | [v2.0.0+mod](https://modrinth.com/datapack/silly-eatables/version/v2.0.0+mod) |
+| 1.21.2 - 1.21.3 | [v1.3.1](https://modrinth.com/datapack/silly-eatables/version/v1.3.1) | [v1.3.1+mod](https://modrinth.com/datapack/silly-eatables/version/v1.3.1+mod) |
+| 1.21 - 1.21.1 | [v1.2.0](https://modrinth.com/datapack/silly-eatables/version/v1.2.0) | [v1.2.0+mod](https://modrinth.com/datapack/silly-eatables/version/v1.2.0+mod) |
 
 Older versions and snapshots can be found [on Modrinth](https://modrinth.com/datapack/silly-eatables/versions) or [here on GitHub](https://github.com/Classics-Craftworks/Silly-Eatables/wiki/Versions).
 
