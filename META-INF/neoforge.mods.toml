@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="silly_eatables"
-version="4.0.1"
+version="4.1.0-beta"
 displayName="Silly Eatables"
 logoFile="pack.png"
 displayURL="https://modrinth.com/datapack/silly_eatables"
@@ -22,6 +22,6 @@ description="Eat things you shouldn't with these silly food recipes!"
 [[dependencies.silly_eatables]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.9,1.21.10]"
+    versionRange="[1.21.9,1.21.11]"
     ordering="AFTER"
     side="BOTH"
