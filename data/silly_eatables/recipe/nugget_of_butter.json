@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "food",
     "ingredients": [
             "minecraft:gold_nugget",
             "minecraft:milk_bucket"
