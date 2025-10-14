@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+            "minecraft:beetroot",
+            "minecraft:gold_nugget",
+            "minecraft:wither_rose"
+    ],
+    "result": {
+        "id": "minecraft:copper_nugget",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation": 0.1,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 0.6,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true,
+                "on_consume_effects": [
+                    {
+                        "type": "minecraft:apply_effects",
+                        "effects": [
+                            {
+                                "id": "minecraft:wither",
+                                "amplifier": 2,
+                                "duration": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:use_cooldown": {
+                "seconds": 3
+            },
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_name": "Cursed Bean"
+        }
+    }
+}

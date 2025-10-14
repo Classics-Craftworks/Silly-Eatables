@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "silly_eatables:cursed_bean"
+        ]
+    },
+    "criteria": {
+        "has_beetroot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beetroot"
+                    }
+                ]
+            }
+        },
+        "has_gold_nugget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_nugget"
+                    }
+                ]
+            }
+        },
+        "has_wither_rose": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wither_rose"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "silly_eatables:cursed_bean"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_beetroot",
+            "has_gold_nugget",
+            "has_wither_rose",
+            "has_recipe"
+        ]
+    ]
+}
