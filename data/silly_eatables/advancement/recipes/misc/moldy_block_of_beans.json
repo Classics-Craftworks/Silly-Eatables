@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "silly_eatables:moldy_block_of_beans"
+        ]
+    },
+    "criteria": {
+        "has_raw_copper_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:raw_copper_block"
+                    }
+                ]
+            }
+        },
+        "has_mushroom": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_mushroom"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "silly_eatables:moldy_block_of_beans"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_raw_copper_block",
+            "has_mushroom",
+            "has_recipe"
+        ]
+    ]
+}

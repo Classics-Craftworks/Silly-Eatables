@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "food",
+    "ingredients": [
+            "minecraft:resin_block",
+            "minecraft:cocoa_beans",
+            "minecraft:cocoa_beans"
+    ],
+    "result": {
+        "id": "minecraft:resin_block",
+        "count": 1,
+        "components": {
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 5.0,
+                "can_always_eat": false
+            },
+            "minecraft:consumable": {
+                "consume_seconds": 2.4,
+                "animation": "eat",
+                "sound": "entity.generic.eat",
+                "has_consume_particles": true
+            },
+            "minecraft:item_name": "Block of Beans"
+        }
+    }
+}
