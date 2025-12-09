@@ -25,8 +25,7 @@ Check out the [Food Recipes](https://github.com/Classics-Craftworks/Silly-Eatabl
 
 | Minecraft Version | Data Pack Version | Mod Version |
 | :--: | :--: | :--: |
-| 1.21.9 - 1.21.11-rc2 | [v4.1.0-pre1](https://modrinth.com/datapack/silly-eatables/version/v4.1.0-pre1) | N/A |
-| 1.21.9 - 1.21.10 | [v4.0.0](https://modrinth.com/datapack/silly-eatables/version/v4.0.0) | [v4.0.1+mod](https://modrinth.com/datapack/silly-eatables/version/v4.0.1+mod) |
+| 1.21.9 - 1.21.11 | [v4.1.0](https://modrinth.com/datapack/silly-eatables/version/v4.1.0) | [v4.1.0+mod](https://modrinth.com/datapack/silly-eatables/version/v4.1.0+mod) |
 | 1.21.5 - 1.21.8 | [v3.2.2](https://modrinth.com/datapack/silly-eatables/version/v3.2.2) | [v3.2.2+mod](https://modrinth.com/datapack/silly-eatables/version/v3.2.2+mod) |
 | 1.21.4 | [v2.0.0](https://modrinth.com/datapack/silly-eatables/version/v2.0.0) | [v2.0.0+mod](https://modrinth.com/datapack/silly-eatables/version/v2.0.0+mod) |
 | 1.21.2 - 1.21.3 | [v1.3.1](https://modrinth.com/datapack/silly-eatables/version/v1.3.1) | [v1.3.1+mod](https://modrinth.com/datapack/silly-eatables/version/v1.3.1+mod) |
