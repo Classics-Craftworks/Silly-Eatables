@@ -3,7 +3,7 @@
   "quilt_loader": {
     "group": "org.classicscraftworks",
     "id": "silly_eatables",
-    "version": "4.1.0",
+    "version": "4.2.0-beta",
     "metadata": {
       "name": "Silly Eatables",
       "description": "Eat things you shouldn't with these silly food recipes!",
@@ -26,7 +26,7 @@
       },
       {
         "id": "minecraft",
-        "versions": ">=1.21.9 <=1.21.11"
+        "versions": ">=1.21.9 <=26.1"
       }
     ]
   }
