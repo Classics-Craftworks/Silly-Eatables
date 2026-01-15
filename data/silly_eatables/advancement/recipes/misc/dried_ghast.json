@@ -1,0 +1,54 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "silly_eatables:dried_ghast"
+        ]
+    },
+    "criteria": {
+        "has_dried_ghast": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dried_ghast"
+                    }
+                ]
+            }
+        },
+        "has_milk": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:milk_bucket"
+                    }
+                ]
+            }
+        },
+        "has_sugar": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "silly_eatables:dried_ghast"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_dried_ghast",
+            "has_milk",
+            "has_sugar",
+            "has_recipe"
+        ]
+    ]
+}
