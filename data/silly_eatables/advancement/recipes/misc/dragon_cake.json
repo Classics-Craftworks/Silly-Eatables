@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:dragon_egg"
+                        "items": "minecraft:dragon_egg"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "items": "minecraft:milk_bucket"
                     }
                 ]
             }
@@ -31,7 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:wheat"
+                        "items": "minecraft:wheat"
                     }
                 ]
             }
@@ -41,7 +41,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }

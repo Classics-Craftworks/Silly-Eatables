@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cookie"
+                        "items": "minecraft:cookie"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }
@@ -31,7 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:gunpowder"
+                        "items": "minecraft:gunpowder"
                     }
                 ]
             }

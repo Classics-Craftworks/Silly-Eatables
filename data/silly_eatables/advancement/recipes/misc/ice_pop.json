@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:breeze_rod"
+                        "items": "minecraft:breeze_rod"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:ice"
+                        "items": "minecraft:ice"
                     }
                 ]
             }

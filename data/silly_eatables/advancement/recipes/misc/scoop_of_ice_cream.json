@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:snowball"
+                        "items": "minecraft:snowball"
                     }
                 ]
             }
@@ -31,7 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "items": "minecraft:milk_bucket"
                     }
                 ]
             }

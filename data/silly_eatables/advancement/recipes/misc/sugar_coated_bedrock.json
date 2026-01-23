@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:bedrock"
+                        "items": "minecraft:bedrock"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }

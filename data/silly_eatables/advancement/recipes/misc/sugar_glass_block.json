@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:glass_block"
+                        "items": "minecraft:glass_block"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }

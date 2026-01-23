@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:resin_block"
+                        "items": "minecraft:resin_block"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cocoa_beans"
+                        "items": "minecraft:cocoa_beans"
                     }
                 ]
             }

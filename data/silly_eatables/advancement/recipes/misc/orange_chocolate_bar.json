@@ -11,7 +11,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:resin_brick"
+                        "items": "minecraft:resin_brick"
                     }
                 ]
             }
@@ -21,7 +21,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:sugar"
+                        "items": "minecraft:sugar"
                     }
                 ]
             }
@@ -31,7 +31,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:cocoa_beans"
+                        "items": "minecraft:cocoa_beans"
                     }
                 ]
             }
@@ -41,7 +41,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:milk_bucket"
+                        "items": "minecraft:milk_bucket"
                     }
                 ]
             }
