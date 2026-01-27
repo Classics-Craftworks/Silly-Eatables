@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "silly_eatables",
-	"version": "4.2.0-beta",
+	"version": "4.2.0-pre",
 	"name": "Silly Eatables",
 	"description": "Eat things you shouldn't with these silly food recipes!",
 	"authors": [
