@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "silly_eatables",
-	"version": "4.4.0-alpha",
+	"version": "4.3.1",
 	"name": "Silly Eatables",
 	"description": "Eat things you shouldn't with these silly food recipes!",
 	"authors": [
@@ -17,7 +17,7 @@
 	"icon": "pack.png",
 	"environment": "*",
 	"depends": {
-		"fabric-resource-loader-v1": "*",
+		"fabric-resource-loader-v0": "*",
 		"minecraft": ">=1.21.9 <26.3"
   }
 }
