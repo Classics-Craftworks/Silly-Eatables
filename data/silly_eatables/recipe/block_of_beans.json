@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "category": "food",
     "ingredients": [
             "minecraft:resin_block",
             "minecraft:cocoa_beans",

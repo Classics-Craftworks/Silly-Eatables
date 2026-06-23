@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "category": "food",
     "ingredients": [
             "minecraft:beetroot",
             "minecraft:gold_nugget"

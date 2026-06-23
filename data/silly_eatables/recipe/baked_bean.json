@@ -1,6 +1,5 @@
 {
 	"type": "smelting",
-	"category": "food",
 	"ingredient": "minecraft:gold_nugget",
     "result": {
         "id": "minecraft:copper_nugget",

@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "category": "food",
     "ingredients": [
             "minecraft:raw_copper_block",
             "minecraft:brown_mushroom",
