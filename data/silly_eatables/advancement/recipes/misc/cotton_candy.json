@@ -29,7 +29,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:cotton_candy"
+                "recipes": "silly_eatables:cotton_candy"
             }
         }
     },

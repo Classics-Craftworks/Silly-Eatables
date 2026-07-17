@@ -39,7 +39,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:cursed_bean"
+                "recipes": "silly_eatables:cursed_bean"
             }
         }
     },

@@ -39,7 +39,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:scoop_of_ice_cream"
+                "recipes": "silly_eatables:scoop_of_ice_cream"
             }
         }
     },

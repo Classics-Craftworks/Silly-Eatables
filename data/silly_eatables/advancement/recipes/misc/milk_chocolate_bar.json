@@ -49,7 +49,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:milk_chocolate_bar"
+                "recipes": "silly_eatables:milk_chocolate_bar"
             }
         }
     },

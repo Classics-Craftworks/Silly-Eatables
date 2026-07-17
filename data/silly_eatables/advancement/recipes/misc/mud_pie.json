@@ -45,7 +45,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:mud_pie"
+                "recipes": "silly_eatables:mud_pie"
             }
         }
     },

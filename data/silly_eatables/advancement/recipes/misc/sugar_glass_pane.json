@@ -29,7 +29,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:sugar_glass_pane"
+                "recipes": "silly_eatables:sugar_glass_pane"
             }
         }
     },

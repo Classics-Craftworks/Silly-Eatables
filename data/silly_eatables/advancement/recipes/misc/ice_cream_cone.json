@@ -29,7 +29,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:ice_cream_cone"
+                "recipes": "silly_eatables:ice_cream_cone"
             }
         }
     },

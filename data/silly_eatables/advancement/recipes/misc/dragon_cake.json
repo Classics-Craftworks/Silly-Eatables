@@ -49,7 +49,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "silly_eatables:dragon_cake"
+                "recipes": "silly_eatables:dragon_cake"
             }
         }
     },
