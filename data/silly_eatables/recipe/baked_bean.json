@@ -17,8 +17,8 @@
                 "has_consume_particles": true
             },
             "minecraft:item_name": "Baked Bean"
-        },
+        }
+	},
 	"experience": 1.0,
 	"cookingtime": 60
-	}
 }
